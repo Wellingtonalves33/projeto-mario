@@ -1,0 +1,18 @@
+.logo-mario {
+    width: 200px;
+}
+
+button {
+    color: white;
+    background-color: #c11111;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.mario-luigi{
+    width: 500px;
+}
