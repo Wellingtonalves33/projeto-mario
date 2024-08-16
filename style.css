@@ -3,16 +3,19 @@
 }
 
 button {
-    color: white;
-    background-color: #c11111;
-    border-radius: 3px;
-    border: none;
-    font-weight: bold;
+    color: white; /* cor do texto*/
+    background-color: #c11111; /* cor do fundo*/
+    border-radius: 3px; /* as potinhas da borda*/
+    border: none; /* sem borda vai deixa mais atrativo*/
+    font-weight: bold; /* Vai deixa em negrito*/
     width: 200px;
     height: 50px;
     cursor: pointer;
-    text-transform: uppercase;
+    text-transform: uppercase;/* tudo em letra maiucula*/
 }
 .mario-luigi{
     width: 500px;
+}
+body{
+    display: flex;
 }
