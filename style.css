@@ -1,7 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .logo-mario {
     width: 200px;
 }
-
+header{
+    position: fixed;
+    top:0;
+    left: 0;}
+    
 button {
     color: white; /* cor do texto*/
     background-color: #c11111; /* cor do fundo*/
@@ -12,10 +21,51 @@ button {
     height: 50px;
     cursor: pointer;
     text-transform: uppercase;/* tudo em letra maiucula*/
+    margin-top: 30px;
 }
 .mario-luigi{
     width: 500px;
 }
 body{
-    display: flex;
+    height: 100vw;
 }
+.caixa-mae{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+   }
+.caixa-principal{
+    width: 40%;
+}
+.caixa-video{
+    position: fixed;
+    z-index: -1;
+   top: 0;
+   
+   
+}
+video{ 
+  width: 100dvw;
+}
+.mascara{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.link-wpp {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+   
